@@ -60,3 +60,6 @@ class ShowTime(models.Model):
     )
 
     status = models.IntegerField()
+
+    def __str__(self):
+        return '{} - {} - {}'.format(self.movie, self.cinema, self.start_time)
