@@ -1,0 +1,9 @@
+Read:
+https://docs.djangoproject.com/en/3.0/topics/db/queries/
+
+f object
+https://docs.djangoproject.com/en/3.0/ref/models/expressions/
+
+q object
+https://micropyramid.com/blog/querying-with-django-q-objects/#:~:text=Django%20Q%20objects%3A,with%20less%20and%20simple%20code.&text=For%20example%2C%20this%20statement%20returns,'%20or%20with%20'what'.
+
