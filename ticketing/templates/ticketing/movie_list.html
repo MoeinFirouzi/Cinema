@@ -1,7 +1,8 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-    <link rel="stylesheet" type="text/css" href="/static/ticketing/css/main.css">
+    <link rel="stylesheet" type="text/css" href="{% static "ticketing/css/main.css"%}">
     <meta charset="UTF-8">
     <title>لیست فیلم‌ها</title>
 </head>
@@ -39,6 +40,6 @@
         در حال حاضر هیچ فیلمی برای نمایش وجود ندارد.
     </p>
 {% endif %}
-<script src="/static/ticketing/js/main.js"></script>
+<script src="{% static "ticketing/js/main.js"%}"></script>
 </body>
 </html>
