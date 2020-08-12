@@ -30,7 +30,6 @@ class Cinema(models.Model):
         verbose_name = 'سینما'
         verbose_name_plural = 'سینما'
 
-    cinema_code = models.IntegerField('کد سینما', primary_key=True)
     name = models.CharField('نام سینما', max_length=50)
     city = models.CharField('شهر', max_length=30, default='تهران')
     capacity = models.IntegerField('ظرفیت')
