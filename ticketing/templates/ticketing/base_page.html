@@ -35,10 +35,10 @@
                     <i class="fas fa-building"></i>
                     سینماها
                 </a>
-                <a class="btn btn-success py-1 px-2" href="{% url "ticketing:showtime_list" %}">
-                    <i class="fas fa-ticket-alt"></i>
-                    خرید بلیت
-                </a>
+{#                <a class="btn btn-success py-1 px-2" href="{% url "ticketing:showtime_list" %}">#}
+{#                    <i class="fas fa-ticket-alt"></i>#}
+{#                    خرید بلیت#}
+{#                </a>#}
             {% endblock %}
             {% block user_button %}
                 {% if user.is_authenticated %}
@@ -48,14 +48,14 @@
                             <i class="fas fa-user"></i>
                             {{ user.get_full_name }}
                         </a>
-                        <div class="dropdown-menu text-right" aria-labelledby="user-button" dir="rtl">
-                            <span class="dropdown-item-text">
-                                <i class="fas fa-coins"></i>
-                                اعتبار:
-                                {{ user.profile.balance }}
-                                تومان
-                            </span>
-                            <div class="dropdown-divider"></div>
+{#                        <div class="dropdown-menu text-right" aria-labelledby="user-button" dir="rtl">#}
+{#                            <span class="dropdown-item-text">#}
+{#                                <i class="fas fa-coins"></i>#}
+{#                                اعتبار:#}
+{#                                {{ user.profile.balance }}#}
+{#                                تومان#}
+{#                            </span>#}
+{#                            <div class="dropdown-divider"></div>#}
 {#                            <a class="dropdown-item" href="{% url "accounts:profile_details" %}">#}
 {#                                <i class="far fa-address-card"></i>#}
 {#                                نمایه کاربری#}
@@ -72,7 +72,7 @@
 {#                                <i class="fas fa-sign-out-alt"></i>#}
 {#                                خروج#}
 {#                            </a>#}
-                        </div>
+{#                        </div>#}
                     </div>
                 {% else %}
                     <a class="btn btn-primary py-1 px-2 mr-3" href="{% url "accounts:login" %}">
