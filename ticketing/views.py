@@ -11,7 +11,6 @@ def movie_list(request):
         'movies': movies,
         'movie_count': count
     }
-    print(context)
     return render(request, 'ticketing/movie_list.html', context)
 
 
