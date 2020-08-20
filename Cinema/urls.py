@@ -20,6 +20,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ticketing/', include('ticketing.urls')),  # if include parameters be in 'app.urls' you don't need import app
+    path('accounts/', include('accounts.urls'))
 ]
 
 if settings.DEBUG:
